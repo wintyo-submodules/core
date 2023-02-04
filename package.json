@@ -7,7 +7,9 @@
     ],
     "nohoist": [
       "**/utils",
-      "**/utils/**"
+      "**/utils/**",
+      "**/components-react",
+      "**/components-react/**"
     ]
   },
   "version": "0.0.0",

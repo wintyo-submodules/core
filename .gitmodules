@@ -1,3 +1,6 @@
 [submodule "packages/utils"]
 	path = packages/utils
 	url = git@github.com:wintyo-submodules/utils.git
+[submodule "packages/components-react"]
+	path = packages/components-react
+	url = git@github.com:wintyo-submodules/components-react.git
