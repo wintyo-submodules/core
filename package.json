@@ -1,5 +1,15 @@
 {
   "name": "@wintyo-submodules/core",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/utils",
+      "**/utils/**"
+    ]
+  },
   "version": "0.0.0",
   "description": "core repository",
   "scripts": {
