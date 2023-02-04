@@ -15,5 +15,8 @@ jobs:
       - name: Install
         run: yarn install
 
+      - name: ls
+        run: ls ./packages/utils
+
       - name: Test
         run: yarn start
